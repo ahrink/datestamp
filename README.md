@@ -40,3 +40,6 @@ d. Run:
 Execute the compiled program: ./ahr
 
 It will print the generated timestamp in the specified format.
+
+Prospective:
+https://sananton.substack.com/p/c1db196f-2258-481a-9af1-3bf3092f8bd1
