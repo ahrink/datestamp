@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
     // Loop execution
     for (int i = 0; i < max_loops; i++) {
         // Call the external executable "ahr stamp"
-        system("/home/vx/uCode/ahr");
+        system("/home/<USER>/uCode/ahr");
     }
 
     return 0;
