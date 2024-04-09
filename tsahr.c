@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
 
     while (1) {
         // Call ahr stamp
-        system("/home/vx/uCode/ahr");
+        system("/home/<USER>/uCode/ahr");
         record_count++;
 
         // Check if timer has expired
@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
 
     // Print one stamp by default if no timer is specified
     if (timer_seconds == 0) {
-        system("/home/vx/uCode/ahr");
+        system("/home/<USER>/uCode/ahr");
         printf("Use tsahr -s <seconds> to specify a duration\n");
     }
 
